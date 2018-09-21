@@ -4,7 +4,7 @@ const VideoListItem = ({ video }) => {
 
     return (
         <li>
-            video
+            <img src={video.snippet.thumbnails.high.url} alt="could not find video" />
         </li>
     );
 }
