@@ -21,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 youtube_api.js
+const API_Key = 'AIzaSyDxFT6JiS4QdtSoxbDcj7gklbTA1_7J54I'; 
