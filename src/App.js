@@ -6,9 +6,10 @@ import './App.css';
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
-import API_Key from './youtube_api';
 
-const APIKey = API_Key
+const APIKey = process.env.REACT_APP_YOUTUBE_API_KEY;
+
+
 
 class App extends Component {
   constructor(props) {

@@ -2,8 +2,9 @@
   "name": "youtube-api",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://ztrabzada1988.github.io/youtube-app",  
+  "homepage": "http://ztrabzada1988.github.io/youtube-app",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
