@@ -22,18 +22,14 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .search-bar {
-  margin: 20px;
-  text-align: center
+  margin: 25px;
+  text-align: center;
 }
 
 .search-bar input {
-  width: 75%
+  width: 75%;
+  border-radius: 4px  
 }
 
 .video-item img {
@@ -47,10 +43,18 @@
   border-radius: 4px
 }
 
+.embed-responsive {
+  border-radius: 4px
+}
+
 .list-group-item {
   cursor: pointer;
 }
 
 .list-group-item:hover {
   background-color: #eee
+}
+
+.media-object {
+  border-radius: 4px;
 }

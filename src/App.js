@@ -18,7 +18,7 @@ class App extends Component {
       videos: [],
       selectedVideo: null,
     };
-    this.videoSearch('dubai');
+    this.videoSearch('the palm island');
   }
 
   videoSearch(term) {
@@ -30,7 +30,6 @@ class App extends Component {
     });  
   }
   
-
    render() {
     const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300);
 
